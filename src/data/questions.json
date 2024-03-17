@@ -1,0 +1,27 @@
+[
+  {
+    "title": "Nigeria gained independence in what year?",
+    "options": ["1950", "1953", "1960", "1963"],
+    "correctOptionIndex": "2"
+  },
+  {
+    "title": "Which country colonized Nigeria?",
+    "options": ["Portugal", "Britain", "France", "Germany"],
+    "correctOptionIndex": "1"
+  },
+  {
+    "title": "Which of these is not an animal?",
+    "options": ["Plate", "Goat", "Dog", "Mosquito"],
+    "correctOptionIndex": "0"
+  },
+  {
+    "title": "Which of these is an animal?",
+    "options": ["Plate", "Spoon", "Fork", "Cockroach"],
+    "correctOptionIndex": "3"
+  },
+  {
+    "title": "Which country is not in Africa?",
+    "options": ["Niger", "Somalia", "Malawi", "Montenegro"],
+    "correctOptionIndex": "3"
+  }
+]
