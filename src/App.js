@@ -1,15 +1,19 @@
-import './App.css';
-import JoinScreen from './components/JoinScreen';
-import Navbar from './components/Navbar';
-import QuizScreen from './components/QuizScreen';
+import { useState } from "react";
+import Navbar from "./components/Navbar.js";
+import QuizScreen from "./components/QuizScreen.js";
+import JoinScreen from "./components/JoinScreen.js";
 
 function App() {
+  const [isQuizStarted, setIsQuizStarted] = useState(false);
   return (
     <>
       <Navbar />
       <div className="quiz-container">
-        <JoinScreen />
-        <QuizScreen />
+        {isQuizStarted ? (
+          <QuizScreen retry={() => setIsQuizStarted(false)} />
+        ) : (
+          <JoinScreen start={() => setIsQuizStarted(true)} />
+        )}
       </div>
     </>
   );
