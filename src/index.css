@@ -30,3 +30,14 @@ body {
 .navbar .logo {
   color: #111;
 }
+
+button {
+  padding: 10px 20px;
+  background: #111;
+  color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 15px;
+}
