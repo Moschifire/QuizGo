@@ -15,4 +15,4 @@ The version currently available has 5 sample questions.
 
 ## Current Challenges
 
-The progress bar for the tumer is currently not displaying. I am working on it.
+The progress bar for the timer is currently not displaying. I am working on it.
