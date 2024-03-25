@@ -23,12 +23,12 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #fff;
+  background: #111;
   border-bottom: 1px solid #d5d5d5;
 }
 
 .navbar .logo {
-  color: #111;
+  color: #fff;
 }
 
 button {
