@@ -124,7 +124,7 @@ button {
 }
 
 .quiz-screen .question .main .options .option.active {
-  background: #1428cd;
+  background: #111;
   color: #fff;
 }
 
